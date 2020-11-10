@@ -1,0 +1,35 @@
+h1 {
+  text-align:center;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: purple;
+  border: 12px black;
+  padding: 6px;
+  box-sizing: border-box;
+  border-style: ridge;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  color: purple;
+  background-color: yellow;
+  font-size: 18px;
+  font-style: oblique;
+  border-radius: 100%;
+}
+
+#result {
+  display: none;
+  color: black;
+}
