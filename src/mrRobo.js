@@ -1,7 +1,6 @@
 //business Logic//
 
-
-function mrRobo(num) {
+export default function mrRobo(num) {
   let array = [];
   for(let i = 1; i <= num; i++) {
     if(i.toString().includes("3")) {
@@ -16,19 +15,3 @@ function mrRobo(num) {
   }
   return array.join(", ");
 };  
-
-
-// User Interface Logic
-
-$(document).ready(function() {
-  $("form#mrRoboger").submit(function(event) {
-    event.preventDefault();
-
-    let inputStr = $("input#number").val();
-    let newNum = mrRobo(inputStr);
-    
-    $("#result").show(newNum);
-    $("#outputNumber").text(newNum);
-
-  });
-});
